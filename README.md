@@ -6,7 +6,7 @@ Lichess has a "hide all ratings" option built into it, I find it a massively use
 
 # Details
 
-Essentially all this does is inject a new stylesheet to set `display:none` on all the ratings I can find.
+Essentially all this does is inject a new stylesheet to set text blur on all the ratings I can find.
 
 
 # Acknowledgements
