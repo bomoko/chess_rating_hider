@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Chess.com Rating Hider",
+    "version": "1.0",
+    "description": "Hides ratings on Chess.com",
+    "homepage_url": "https://github.com/bomoko/chess_rating_hider",
+    "icons": {
+        "48": "icons/beasts-48.png"
+      },
+    "permissions": [
+      "*://www.chess.com/*"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["*://www.chess.com/*"],
+        "js": ["content.js"]
+      }
+    ],
+    "web_accessible_resources": [
+      "styles.css"
+    ]
+  }

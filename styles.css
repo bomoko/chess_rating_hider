@@ -1,0 +1,13 @@
+.stat-section-user-rating,
+.user-tagline-popover-rating,
+.user-popover-ratings,
+.user-tagline-rating,
+.live-game-start-component span span,
+.live-game-start-component span:last-child,
+.game-over-rating-rating,
+.live-game-over-component span:last-child,
+.main-stats,
+.user-rating {
+    color: transparent!important;
+    text-shadow: 0 0 8px #000!important;
+}
